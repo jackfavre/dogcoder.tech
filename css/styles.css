@@ -420,7 +420,7 @@ main {
   bottom: 38%;
   left: 6%;
   width: 96px;
-  height: 132px;
+  height: 96px;
   z-index: 6;
   transform-origin: 50% 100%;
   -webkit-font-smoothing: none;
@@ -438,8 +438,10 @@ main {
   display: block;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
-  filter: drop-shadow(4px 4px 0 rgba(0, 0, 0, 0.45));
+  filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, 0.45));
+  overflow: visible;
 }
+
 
 .smw-hero__run--b {
   opacity: 0;
